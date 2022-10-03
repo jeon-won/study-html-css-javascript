@@ -1,0 +1,42 @@
+/* 그리드 컨테이너 설정 */
+#container {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+
+    /* 아래와 같이 그리드 템플릿을 배치 */
+    grid-template-areas: 
+      "box1 box1 box1"
+      "box2 box3 box4"
+      "box2 .    box4"; /* 빈 공간으로 두려면 . 사용 */
+}
+
+/* class명에 box가 포함된 요소 레이아웃 */
+.box{
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }   
+
+/* 각 box별 레이아웃 설정 */
+.box1 {
+    background-color: burlywood;
+    grid-area: box1;
+}
+
+.box2 {
+    background-color: yellowgreen;
+    grid-area: box2;
+}
+
+.box3 {
+    background-color: royalblue;
+    grid-area: box3;
+}
+
+.box4 {
+    background-color: goldenrod;
+    grid-area: box4;
+}
