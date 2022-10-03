@@ -255,7 +255,7 @@ fieldset 태그로 묶은 그룹에 제목을 붙일 때 `<legend>` 태그 사�
 | datetime       | 날짜 및 시간(년, 월, 일, 시, 분, 초)                    |
 | datetime-local | 사용자 지역 기준의 날짜 및 시간(년, 월, 일, 시, 분, 초) |
 | email          | 이메일 주소                                             |
-| file           | 파일                                                        |
+| file           | 파일                                                    |
 | image          | submit 버튼 대신 사용할 이미지 추가                     |
 | month          | 날짜(년, 월)                                            |
 | number         | 숫자를 입력받는 스핀 박스                               |

@@ -1,0 +1,100 @@
+@media mobile {
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+    * {
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    #wrapper {
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            "box1"
+            "box2"
+            "box3"
+            "box4"
+            "box5"
+            "box6"
+
+
+    }
+    
+    .box {
+        border: 1px solid gray;
+    }
+
+    .box:hover {
+        background-color: #FFDA89;
+    }
+    
+    .box1 {
+        grid-area: box1;
+    }
+    
+    .box2 {
+        grid-area: box2;
+    }
+    
+    .box3 {
+        grid-area: box3;
+    }
+    
+    .box4 {
+        grid-area: box4;
+    }
+    
+    .box5 {
+        grid-area: box5;
+    }
+    
+    .box6 {
+        grid-area: box6;
+    }
+    
+    ul {
+        background-color: #FFDA89;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        background-color: #FFDA89;
+        color: #000000;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    li a:hover {
+        background-color:chocolate;
+        color: white;
+    }
+
+    h3 a {
+        color:darkblue;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    h3 a:hover {
+        color: chocolate;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
