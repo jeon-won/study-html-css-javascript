@@ -604,10 +604,10 @@ animation: <ANIMATION-NAME> | <ANIMATION-DURATION> | <ANIMATION-TIMING-FUNCTION>
 ```
 
 뷰포트를 사용하면 px와 같은 단위 대신 뷰포트 전용 단위를 사용할 수 있음
-* vw: 1vw는 뷰포트 너비의 1%
-* vh: 1vh는 뷰포트 높이의 1%
-* 1vmin: 1vmin은 뷰포트 너비와 높이 중 작은 값의 1%
-* 1vmax: 1vmax는 뷰포트 너비와 높이 중 큰 값의 1%
+* `vw`: 1vw는 뷰포트 너비의 1%
+* `vh`: 1vh는 뷰포트 높이의 1%
+* `vmin`: 1vmin은 뷰포트 너비와 높이 중 작은 값의 1%
+* `vmax`: 1vmax는 뷰포트 너비와 높이 중 큰 값의 1%
 
 ### 미디어 쿼리(Media Queries)
 
@@ -642,7 +642,7 @@ animation: <ANIMATION-NAME> | <ANIMATION-DURATION> | <ANIMATION-TIMING-FUNCTION>
 * 화면 회전 속성: orientation: portrait(세로 방향), orientation: landscape(가로 방향)
 
 ```css
-/* 기기 최소 너비가 400px이고 가로 방향일 경우에 대한 스타일 작성 */
+/* 스크린 최소 너비가 400px이고 가로 방향일 경우에 대한 스타일 작성 */
 @media screen and (min-device-width: 400px) and (orientation: landscape) { }
 ```
 
@@ -658,7 +658,7 @@ animation: <ANIMATION-NAME> | <ANIMATION-DURATION> | <ANIMATION-TIMING-FUNCTION>
 
 <!-- style 태그 내에서 미디어 쿼리가 정의된 CSS 파일을 가져옴 -->
 <style>
-  @import url(CSS_파일_경로) 미디어_쿼리_조건
+  @import url(CSS_파일_경로) 미디어_쿼리_조건;
 </style>
 ```
 
